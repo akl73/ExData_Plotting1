@@ -1,4 +1,5 @@
 source("./common_functions.R")
-# read_consumption_file and plot_4 are defined in common_functions
+# loading file,  plot_4 and save_file are defined in common_functions
 par(mfcol = c(2,2))
 plot_4()
+save_file("plot4.png")
